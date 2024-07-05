@@ -41,24 +41,22 @@
               <h4
                 class="font-bold font-serif mb-1 text-primary-600 dark:text-primary-200 uppercase"
               >
-                Adopt A Pet
+                Dessert In Tampa
               </h4>
               <h1 class="capitalize leading-tight mb-2 text-white">
-                Thousands of homeless dogs, one act of kindness
+                Where Every Bite Tells a Story!
               </h1>
               <p class="font-thin mb-6 text-gray-300">
-                Find your new furry friend today! We have a wide variety of
-                lovable pets available for adoption. Come visit us and take home
-                your new best friend!
+                We imply that every product is crafted with care and quality, so much so that it creates a memorable moment for the customer!
               </p>
               <BaseButton
                 size="xl"
-                label="Adopt Now"
+                label="Order Now"
                 target="_blank"
                 to="https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss"
               >
-                <div class="inline-block ml-1 p-1.5 text-lg">Adopt Now</div>
-                <BaseIcon name="i-noto-dog-face" height="28px" />
+                <div class="inline-block ml-1 p-1.5 text-lg">Contact Now</div>
+                <BaseIcon name="i-noto-shortcake" height="28px" />
               </BaseButton>
             </div>
           </div>

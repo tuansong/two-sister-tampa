@@ -10,7 +10,7 @@ export default defineEventHandler(async (event): Promise<Pet> => {
   if (!pet) {
     throw createError({
       statusCode: 404,
-      message: 'Pet profile not found.',
+      message: 'Cake not found.',
     })
   }
 

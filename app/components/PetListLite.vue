@@ -1,26 +1,22 @@
 <script setup lang="ts">
-  const { somePets: pets } = await usePets()
+const { somePets: pets } = await usePets()
 </script>
 <template>
-  <div class="bg-primary-100 dark:bg-primary-700">
+  <div class="bg-primary-100 dark:bg-teal-950">
     <div class="pb-24 pt-12">
       <div class="container mx-auto px-4 relative">
-        <div
-          class="-mx-4 flex flex-col flex-wrap items-center justify-center mb-4"
-        >
+        <div class="-mx-4 flex flex-col flex-wrap items-center justify-center mb-4">
           <div class="px-4 text-center w-full">
             <h6 class="text-primary-100 dark:text-primary-700 uppercase">
-              Adopt A Pet
+              Find your love~
             </h6>
-            <h3 class="capitalize">Small Gesture For A Big Impact</h3>
+            <h3 class="capitalize">Small Bite For A Big Heart</h3>
             <p class="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              vitae congue tortor.
+              How do you feel today? Tell us, we will find thing to fill your soul
             </p>
           </div>
           <div class="px-4 text-center w-full">
-            <BaseButton size="xl" to="/adopt" color="secondary"
-              ><span>Meet Them All ></span>
+            <BaseButton size="xl" to="/adopt" color="secondary"><span>Catch Them All ></span>
             </BaseButton>
           </div>
         </div>

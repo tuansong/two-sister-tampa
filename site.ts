@@ -3,10 +3,10 @@
 // @unocss-include
 
 export default {
-  name: 'Happy Paws',
-  description: 'Adopt Your Fur Mate',
+  name: 'Two Sisters Tampa',
+  description: 'Where Every Bite Tells a Story!',
   logo: 'i-noto:cat-face',
-  author: 'Pinegrow',
+  author: 'Song',
   url: 'https://happy-paws-with-nuxt-tailwindcss.netlify.app',
   github: 'https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss',
   defaultLocale: 'en', // default
@@ -18,7 +18,7 @@ export default {
   titleSeparator: '|', // default
   nav: [
     { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: 'Adopt Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
+    { text: '0 Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
     {
       text: 'Donate',
       link: '/quick-start',
