@@ -13,7 +13,7 @@ definePageMeta({
 </script>
 <template>
   <div class="py-12 bg-primary-100 dark:bg-teal-950 text-primary-900 dark:text-primary-100">
-    <div class="flex flex-col items-center">
+    <div data-aos="zoom-in-up" class="flex flex-col items-center">
       <div class="px-4 text-center w-full lg:w-7/12">
         <h6 class="uppercase">Find your love~</h6>
         <h3 class="capitalize">Small Bite For A Big Heart</h3>

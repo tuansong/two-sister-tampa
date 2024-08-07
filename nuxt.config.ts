@@ -37,13 +37,28 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true,
   },
-
+  plugins: [{ src: "./plugins/aos.client.ts", ssr: false }],
   app: {
     baseURL: '/', // defaulted by nuxt
     // Look into HeadAndMeta.vue for the rest
     head: {
-      meta: [{ charset: 'utf-8' }], // defaulted by nuxt
+      meta: [
+        { charset: 'utf-8', },
+        {
+          name: 'Two Sisters Tampa',
+          content: "Best dessert in Tampa! Where every bite tells a story"
+        },
+        { property: 'og:title', content: 'Two Sisters Tampa' },
+        { property: 'og:description', content: 'Best dessert in Tampa! Where every bite tells a story' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:locale', content: 'en_US' },
+      ], // defaulted by nuxt
     },
+    script: [
+      {
+        src: "https://smtpjs.com/v3/smtp.js",
+      }
+    ]
   },
 
   modules: [

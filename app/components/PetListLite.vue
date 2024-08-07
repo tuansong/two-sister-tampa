@@ -5,7 +5,7 @@ const { somePets: pets } = await usePets()
   <div class="bg-primary-100 dark:bg-teal-950">
     <div class="pb-24 pt-12">
       <div class="container mx-auto px-4 relative">
-        <div class="-mx-4 flex flex-col flex-wrap items-center justify-center mb-4">
+        <div data-aos="zoom-in-up" class="-mx-4 flex flex-col flex-wrap items-center justify-center mb-4">
           <div class="px-4 text-center w-full">
             <h6 class="text-primary-100 dark:text-primary-700 uppercase">
               Find your love~
@@ -21,7 +21,7 @@ const { somePets: pets } = await usePets()
           </div>
         </div>
         <div class="flex flex-wrap -mx-4 justify-center">
-          <PetCard v-for="(pet, index) in pets" :key="index" v-bind="pet" />
+          <CakeCard v-for="(pet, index) in pets" :key="index" data-aos="fade-down" v-bind="pet" />
         </div>
       </div>
     </div>

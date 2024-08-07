@@ -29,6 +29,24 @@
       "name": "Black Forest",
       "image": "https://images.unsplash.com/photo-1620492129802-2955e00f161e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fHJhYmJpdHxlbnwwfHx8fDE2MzA0Njc2NTA&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=600&fit=crop",
       "price": "99$"
+    },
+    {
+      "id": 6,
+      "name": "Icing Cookies",
+      "image": "https://images.unsplash.com/photo-1620492129802-2955e00f161e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fHJhYmJpdHxlbnwwfHx8fDE2MzA0Njc2NTA&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=600&fit=crop",
+      "price": "99$"
+    },
+    {
+      "id": 7,
+      "name": "Cup Cake",
+      "image": "https://images.unsplash.com/photo-1620492129802-2955e00f161e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fHJhYmJpdHxlbnwwfHx8fDE2MzA0Njc2NTA&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=600&fit=crop",
+      "price": "99$"
+    },
+    {
+      "id": 8,
+      "name": "Black Forest",
+      "image": "https://images.unsplash.com/photo-1620492129802-2955e00f161e?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fHJhYmJpdHxlbnwwfHx8fDE2MzA0Njc2NTA&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=600&h=600&fit=crop",
+      "price": "99$"
     }
   ]
 }

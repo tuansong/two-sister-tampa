@@ -18,7 +18,7 @@ export default {
   titleSeparator: '|', // default
   nav: [
     { text: 'Home', link: '/', type: 'primary', icon: 'i-mdi-home' },
-    { text: '0 Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
+    { text: 'Order Now', link: '/adopt', type: 'primary', icon: 'i-mdi-home' },
     {
       text: 'Donate',
       link: '/quick-start',
@@ -33,8 +33,8 @@ export default {
     },
     { text: 'Blog', link: '/blog', type: 'secondary', icon: 'i-mdi-home' },
     {
-      text: 'Volunteer',
-      link: '/volunteer',
+      text: 'Order',
+      link: '/order',
       type: 'secondary',
       icon: 'i-mdi-home',
     },
