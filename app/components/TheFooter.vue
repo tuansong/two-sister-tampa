@@ -37,7 +37,7 @@
             <NuxtLink to="/">twoSisTampa@gmail.com</NuxtLink>
           </div>
         </div>
-        <div class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start">
+        <!-- <div class="flex flex-col items-center p-4 w-full sm:w-1/2 md:flex-1 md:w-1/3 lg:items-start">
           <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
             General
           </h2>
@@ -59,7 +59,7 @@
           </h2>
           <ul class="text-center lg:mt-2 lg:text-left">
             <li class="mb-4">
-              <NuxtLink to="/adopt" class="hover:text-primary-600 dark:text-primary-200">Order Now</NuxtLink>
+              <NuxtLink to="/cakes" class="hover:text-primary-600 dark:text-primary-200">Order Now</NuxtLink>
             </li>
             <li class="mb-4">
               <NuxtLink to="/quick-start" class="hover:text-primary-600 dark:text-primary-200">Tip Us</NuxtLink>
@@ -68,7 +68,7 @@
               <NuxtLink to="/blog" class="hover:text-primary-600 dark:text-primary-200">Blog</NuxtLink>
             </li>
           </ul>
-        </div>
+        </div> -->
         <div class="flex flex-col items-center p-4 w-full md:w-1/3">
           <h2 class="font-bold text-primary-600 dark:text-primary-200 text-xl">
             Gallery

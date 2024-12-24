@@ -35,7 +35,7 @@ useHead({
         <div class="px-8">
           <div class="flex flex-wrap lg:justify-between">
             <div class="py-4 text-center w-full lg:w-fit">
-              <NuxtLink to="/adopt">
+              <NuxtLink to="/cakes">
                 <BaseButton><span>&lt;- Go Back</span> </BaseButton>
               </NuxtLink>
             </div>
@@ -118,7 +118,7 @@ useHead({
               To adopt
               <span class="mx-1 text-primary-600 dark:text-primary-200">{{ name }} </span><span>or learn more, please
                 visit our adoption centre at </span><span class="mx-1 text-primary-600 dark:text-primary-200">{{
-                location }}.</span><span>Appointments are not required and walk-ins are welcome.</span>
+                  location }}.</span><span>Appointments are not required and walk-ins are welcome.</span>
             </p>
             <p class="mt-2">
               Alternatively, please contact our {{ location }} team directly on

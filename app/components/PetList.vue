@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const { allPets: pets } = await usePets()
+const { allCakes: pets } = await useCakes()
 </script>
 <template>
   <div>

@@ -29,7 +29,7 @@ const callToActions = [
     </div>
     <div data-aos="fade-down" class="-mx-4 flex flex-wrap justify-center mt-12">
       <CallToActionCard v-for="(callToAction, index) in callToActions" :key="index" :action="callToAction.action"
-        :img="callToAction.img" :to="callToAction.to" />
+        :img="callToAction.img" />
     </div>
   </section>
 </template>

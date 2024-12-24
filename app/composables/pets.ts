@@ -1,4 +1,4 @@
-export const usePets = async () => {
+export const useCakes = async () => {
   // const { data, error } = await useFetch('/api/adopt/external-data')
   const { data, error } = await useFetch('/api/adopt/local-data')
 
@@ -14,11 +14,11 @@ export const usePets = async () => {
     })
   }
 
-  const fetchBreed = (breed?: string) => {
+  const fetchType = (type?: string) => {
     // // Optimize any image urls in the data contents
     // const { optimizeImage } = useOptimizeImage()
 
-    return data.value.allPets.filter((pet) => !breed || pet.breed === breed)
+    return data.value.allCakes.filter((cake) => !type || cake.type === type)
     // .map((pet) =>
     //   pet.image
     //     ? {
@@ -29,7 +29,7 @@ export const usePets = async () => {
     // )
   }
 
-  const { allPets, somePets } = data.value
+  const { allCakes, someCakes } = data.value
 
-  return { allPets, somePets, fetchBreed }
+  return { allCakes, someCakes, fetchType }
 }

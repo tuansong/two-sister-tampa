@@ -1,18 +1,18 @@
-import type { Pet, Pets } from '~~/types/pets'
-import { pets } from '~~/db.json'
+import type { Cake, Cakes } from '~~/types/cakes'
+import { cakes } from '~~/db.json'
 
-pets as Pets
+cakes as Cakes
 
-export default defineEventHandler(async (event): Promise<Pet> => {
+export default defineEventHandler(async (event): Promise<Cake> => {
   const { id } = event.context.params
 
-  const pet: Maybe<Pet> = pets.find((pet) => +pet.id === +id)
-  if (!pet) {
+  const cake: Maybe<Cake> = cakes.find((cake) => +cake.id === +id)
+  if (!cake) {
     throw createError({
       statusCode: 404,
       message: 'Cake not found.',
     })
   }
 
-  return pet
+  return cake
 })

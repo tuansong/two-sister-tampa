@@ -1,45 +1,45 @@
-import type { Pets } from '~~/types/pets'
+import type { Cakes } from '~~/types/cakes'
 
-let allPets: Pets
-let somePets: Pets
+let allCakes: Cakes
+let someCakes: Cakes
 
 const apiBaseUrl =
   'https://my-json-server.typicode.com/pinegrow/happy-paws-with-nuxt-tailwindcss'
 
-const fractionOfThePetsArray = (pets, fraction) => {
-  return pets
-    .map((pet) => ({
-      ...pet,
+const fractionOfTheCakesArray = (cakes, fraction) => {
+  return cakes
+    .map((cake) => ({
+      ...cake,
       sort: Math.random(),
     }))
     .sort((a, b) => a.sort - b.sort)
-    .slice(0, Math.floor(pets.length * fraction))
+    .slice(0, Math.floor(cakes.length * fraction))
 }
 
 export default defineEventHandler(async (/*event*/) => {
   // If pets exists, don't refetch them
   // Remove this if we want to always fetch refresh data from the source
 
-  if (allPets) {
+  if (allCakes) {
     return {
-      allPets,
-      somePets,
+      allCakes,
+      someCakes,
     }
   }
 
-  allPets = await $fetch(`${apiBaseUrl}/pets`)
+  allCakes = await $fetch(`${apiBaseUrl}/cakes`)
 
-  if (!allPets) {
+  if (!allCakes) {
     throw createError({
       statusCode: 404,
-      message: 'Pet profiles not fetched.',
+      message: 'Cake profiles not fetched.',
     })
   }
 
-  somePets = fractionOfThePetsArray(allPets, 0.5)
+  someCakes = fractionOfTheCakesArray(allCakes, 0.5)
 
   return {
-    allPets,
-    somePets,
+    allCakes,
+    someCakes,
   }
 })

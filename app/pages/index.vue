@@ -6,7 +6,7 @@ definePageMeta({
   // name: 'index',
   // alias: 'index',
   title: 'Home',
-  description: 'Thousands of homeless pets, one act of kindness!',
+  description: 'Thousands of lovely cakes, one bite of heavenly!',
   navOrder: 1,
   type: 'primary',
   icon: 'i-mdi-home',

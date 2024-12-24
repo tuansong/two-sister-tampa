@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { somePets: pets } = await usePets()
+const { someCakes: pets } = await useCakes()
 </script>
 <template>
   <div class="bg-primary-100 dark:bg-teal-950">
@@ -16,7 +16,7 @@ const { somePets: pets } = await usePets()
             </p>
           </div>
           <div class="px-4 text-center w-full">
-            <BaseButton size="xl" to="/adopt" color="secondary"><span>Catch Them All ></span>
+            <BaseButton size="xl" to="/cakes" color="secondary"><span>Catch Them All ></span>
             </BaseButton>
           </div>
         </div>
