@@ -41,8 +41,7 @@ const bgStyles = heroImageOptimized.bgStyles
                 We imply that every product is crafted with care and quality, so much so that it creates a memorable
                 moment for the customer!
               </p>
-              <BaseButton size="xl" label="Order Now" target="_blank"
-                to="https://github.com/pinegrow/happy-paws-with-nuxt-tailwindcss">
+              <BaseButton size="xl" label="Order Now" target="_blank" to="https://www.facebook.com/twosistersTampa">
                 <div class="inline-block ml-1 p-1.5 text-lg">Contact Now</div>
                 <BaseIcon name="i-noto-shortcake" height="28px" />
               </BaseButton>

@@ -18,7 +18,7 @@
           invites customers to explore and enjoy unique and delicious treats that set the store apart from others in the
           area.
         </p>
-        <BaseButton size="xl" to="/articles"> Learn More </BaseButton>
+        <!-- <BaseButton size="xl" to="/articles"> Learn More </BaseButton> -->
       </div>
     </div>
   </div>
