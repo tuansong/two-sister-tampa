@@ -20,13 +20,13 @@
           </p>
           <div class="inline-flex mt-6 space-x-3">
             <div class="flex flex-wrap space-x-4">
-              <NuxtLink href="https://www.facebook.com/vuedesigner" aria-label="facebook" external target="_blank">
+              <NuxtLink href="https://www.facebook.com/twosistersTampa" aria-label="facebook" external target="_blank">
                 <BaseIcon name="i-logos-facebook" class="text-2xl" width="28px" />
               </NuxtLink>
-              <NuxtLink href="https://twitter.com/vuedesigner" aria-label="instagram" external target="_blank">
+              <NuxtLink href="https://twitter.com" aria-label="instagram" external target="_blank">
                 <BaseIcon name="i-logos-instagram-icon" class="text-2xl" width="28px" />
               </NuxtLink>
-              <NuxtLink href="https://www.youtube.com/@vuedesigner" aria-label="youtube" external target="_blank">
+              <NuxtLink href="https://www.youtube.com" aria-label="youtube" external target="_blank">
                 <BaseIcon name="i-logos-youtube-icon" class="text-2xl" width="28px" />
               </NuxtLink>
             </div>
