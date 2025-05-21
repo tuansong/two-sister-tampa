@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { heroImageUrl } from '@/utils/hero'
+import cover from '@/assets/images/bgCover.png'
 
 const { optimizeImage } = useOptimizeImage()
 const heroImageOptimized = {
@@ -21,7 +22,10 @@ const heroImageOptimized = {
 }
 
 const heroImage = heroImageOptimized.src
-const bgStyles = heroImageOptimized.bgStyles
+// const bgStyles = heroImageOptimized.bgStyles
+const bgStyles = {
+  backgroundImage: `url(${cover})`
+}
 </script>
 <template>
   <section class="container mx-auto pb-12 px-4">

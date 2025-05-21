@@ -31,7 +31,10 @@ const imageOptimized = computed(() => {
   }
 })
 
-const bgStyles = imageOptimized.value.bgStyles
+// const bgStyles = imageOptimized.value.bgStyles
+const bgStyles = {
+  backgroundImage: `url(${img})`
+}
 </script>
 <template>
   <div class="pb-4 px-4 rounded-3xl w-full sm:w-8/12 md:w-6/12 lg:w-4/12">
