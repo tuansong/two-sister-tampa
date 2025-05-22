@@ -37,7 +37,10 @@ export default defineNuxtConfig({
   experimental: {
     componentIslands: true,
   },
-  plugins: [{ src: "./plugins/aos.client.ts", ssr: false }],
+  plugins: [
+    { src: "./plugins/aos.client.ts", ssr: false },
+    { src: '~/plugins/vue-fb-customer-chat.js', ssr: false }
+  ],
   app: {
     baseURL: '/', // defaulted by nuxt
     // Look into HeadAndMeta.vue for the rest
