@@ -38,8 +38,7 @@ export default defineNuxtConfig({
     componentIslands: true,
   },
   plugins: [
-    { src: "./plugins/aos.client.ts", ssr: false },
-    { src: '~/plugins/vue-fb-customer-chat.js', ssr: false }
+    { src: "./plugins/aos.client.ts", ssr: false }
   ],
   app: {
     baseURL: '/', // defaulted by nuxt

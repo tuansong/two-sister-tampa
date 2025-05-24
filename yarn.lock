@@ -11857,11 +11857,6 @@ vue-eslint-parser@^9.4.2:
     lodash "^4.17.21"
     semver "^7.3.6"
 
-vue-fb-customer-chat@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/vue-fb-customer-chat/-/vue-fb-customer-chat-0.2.2.tgz#6b11dc695b359191e30e59a6656e0fd975edad74"
-  integrity sha512-xdM3D8WYVpV9Bj3Q4ikjt8PywRN2LhfJBiOlmtwiC3dmxIGm/zVk749B0m6YlaC4yLaVU123t8cc3NqTjWUj/Q==
-
 vue-resize@^2.0.0-alpha.1:
   version "2.0.0-alpha.1"
   resolved "https://registry.npmjs.org/vue-resize/-/vue-resize-2.0.0-alpha.1.tgz"

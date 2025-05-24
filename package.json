@@ -31,7 +31,6 @@
     "nuxt": "^3.12.2",
     "pinia": "^2.1.7",
     "vue": "^3.4.30",
-    "vue-fb-customer-chat": "^0.2.2",
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
