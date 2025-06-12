@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import us from '~/assets/images/ly.jpg'
+</script>
 <template>
   <section>
     <div class="container mx-auto px-4 py-12 relative">
@@ -10,7 +12,8 @@
             alt="Stats"
           /> -->
           <!-- <NuxtImg alt="us" src="/2sistampa-logo.png" /> -->
-          <NuxtImg alt="us" src="/ly.jpg" />
+          <!-- <NuxtImg alt="us" src="/ly.jpg" /> -->
+          <img :src="us" alt="us" />
         </div>
         <div data-aos="fade-right" class="lg:w-6/12 mx-auto p-4 w-full">
           <h6

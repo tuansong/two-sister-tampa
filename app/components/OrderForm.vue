@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import us from '~/assets/images/linh.jpg'
   import Email from '@/assets/smtp/smtp.js'
 
   const initFocusState = ref({
@@ -77,7 +78,7 @@ Delivery Date:
     <div class="container mx-auto px-4 py-12 relative">
       <div class="-mx-4 flex flex-wrap items-center">
         <div data-aos="fade-right" class="p-4 w-full lg:w-2/5">
-          <NuxtImg alt="us" src="/linh.jpg" />
+          <img :src="us" alt="us" />
         </div>
         <div data-aos="fade-left" class="lg:w-6/12 mx-auto p-4 w-full">
           <h6
