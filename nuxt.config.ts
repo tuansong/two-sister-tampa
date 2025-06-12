@@ -38,7 +38,8 @@ export default defineNuxtConfig({
     componentIslands: true,
   },
   plugins: [
-    { src: "./plugins/aos.client.ts", ssr: false }
+    { src: "./plugins/aos.client.ts", ssr: false },
+    { src: "./plugins/facebook-messenger.client.ts", ssr: false }
   ],
   app: {
     baseURL: '/', // defaulted by nuxt
