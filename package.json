@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
+    "@tawk.to/tawk-messenger-vue-3": "^1.0.3",
     "@vee-validate/nuxt": "^4.13.1",
     "@vueuse/core": "^10.11.0",
     "aos": "^2.3.4",
