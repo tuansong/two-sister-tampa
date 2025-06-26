@@ -56,6 +56,7 @@
     "eslint": "^9.5.0",
     "eslint-config-prettier": "^9.1.0",
     "npm-run-all": "^4.1.5",
+    "nuxt-facebook-chat": "^1.0.5",
     "postcss": "^8.4.38",
     "prettier": "^3.3.2",
     "rehype-external-links": "^3.0.0",

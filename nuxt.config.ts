@@ -17,6 +17,7 @@ const {
 export default defineNuxtConfig({
   extends: [
     './app-nuxt-tailwindcss-layer', // NavBar and Footer components
+
   ],
   // ssr: false,
   devtools: { enabled: false }, // Disable when using Vue devtools
@@ -39,7 +40,7 @@ export default defineNuxtConfig({
   },
   plugins: [
     { src: "./plugins/aos.client.ts", ssr: false },
-    { src: "./plugins/facebook-messenger.client.ts", ssr: false }
+    // { src: "./plugins/facebook-messenger.client.ts", ssr: false }
   ],
   app: {
     baseURL: '/', // defaulted by nuxt
@@ -79,6 +80,7 @@ export default defineNuxtConfig({
     '@nuxtjs/critters',
     '@nuxt/icon',
     '@nuxt/eslint',
+    "nuxt-facebook-chat"
   ],
   // https://dev.to/jacobandrewsky/improving-performance-of-nuxt-with-fontaine-5dim
   fontMetrics: {
