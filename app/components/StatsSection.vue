@@ -31,19 +31,21 @@
           </p>
           <div class="-mx-4 flex flex-wrap items-center">
             <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">500+</h2>
+              <h2 class="mb-2">
+                <CountUp :children="500" :duration="2000" />+
+              </h2>
               <p>Cake Ordered</p>
             </div>
             <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">50+</h2>
+              <h2 class="mb-2"><CountUp :children="50" :duration="1500" />+</h2>
               <p>Dessert Table Booked</p>
             </div>
             <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">20+</h2>
+              <h2 class="mb-2"><CountUp :children="20" :duration="1000" />+</h2>
               <p>Dessert Types</p>
             </div>
             <div class="px-4 py-6 w-1/2">
-              <h2 class="mb-2">10+</h2>
+              <h2 class="mb-2"><CountUp :children="10" :duration="500" />+</h2>
               <p>Events Decorated</p>
             </div>
           </div>

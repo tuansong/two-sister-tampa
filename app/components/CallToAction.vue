@@ -5,16 +5,16 @@
 
   const callToActions = [
     {
-      img: customeCake,
-      action: 'Custom Cake&Dessert',
+      img: weddingCake,
+      action: 'Custom Cream Cake',
     },
     {
       img: desertTable,
       action: 'Dessert Table',
     },
     {
-      img: weddingCake,
-      action: 'Planning Event',
+      img: desertTable,
+      action: 'Event Decoration',
     },
   ]
 </script>

@@ -23,6 +23,7 @@
     "format": "prettier --write \"**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,md,mdx,json}\" !public --ignore-path .gitignore"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.23",
     "@pinia/nuxt": "^0.5.1",
     "@tawk.to/tawk-messenger-vue-3": "^1.0.3",
     "@vee-validate/nuxt": "^4.13.1",

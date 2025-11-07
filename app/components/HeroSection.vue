@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import { heroImageUrl } from '@/utils/hero'
-  import cover from '~/assets/images/bgCover.png'
+  import cover from '/bgCover.png'
 
   const { optimizeImage } = useOptimizeImage()
   const heroImageOptimized = {
@@ -36,12 +36,15 @@
       <div data-aos="fade-down">
         <div class="lg:px-12 md:py-36 pb-6 pt-72 px-6 relative rounded-3xl">
           <div class="-mx-4 flex flex-wrap items-center space-y-6 lg:space-y-0">
-            <div class="px-4 w-full md:w-8/12 xl:w-6/12">
+            <div
+              class="px-4 p-3 w-full md:w-8/12 xl:w-6/12 bg-black bg-opacity-25 rounded-2xl"
+            >
               <h4
                 class="font-bold font-serif mb-1 text-primary-600 dark:text-primary-200 uppercase"
               >
                 Dessert In Tampa
               </h4>
+
               <h1 class="capitalize leading-tight mb-2 text-white">
                 Where Every Bite Tells a Story!
               </h1>
